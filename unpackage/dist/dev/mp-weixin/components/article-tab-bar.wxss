@@ -1,0 +1,30 @@
+.article-tab-bar {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 18rpx 35rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 750rpx;
+  height: 100rpx;
+  background-color: #fbfbfb;
+  border-top: 1rpx solid #eee;
+}
+.article-tab-bar .comment-button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 30rpx;
+  width: 280rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  border: 1rpx solid #999;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #999;
+}
+.article-tab-bar .function-wrap {
+  position: absolute;
+  right: 55rpx;
+}
+

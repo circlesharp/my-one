@@ -1,0 +1,6 @@
+{
+  "transparentTitle": "auto",
+  "usingComponents": {
+    "scroll-xiaoji": "/components/scroll-xiaoji"
+  }
+}

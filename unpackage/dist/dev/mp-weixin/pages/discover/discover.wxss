@@ -1,0 +1,24 @@
+.discover {
+  background-color: #fff;
+}
+.discover .tab-view {
+  position: fixed;
+  z-index: 10;
+}
+.discover .tab-content .item-1 {
+  position: absolute;
+  width: 100%;
+}
+.discover .tab-content .item-1 .scroll-y {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 44px;
+  height: 100%;
+}
+.discover .tab-content .item-1 .scroll-y .list-view {
+  padding: 0 35rpx;
+}
+.discover .tab-content .item-1 .scroll-y .list-view .zhuanti-item+.zhuanti-item {
+  margin-top: 100rpx;
+}
+

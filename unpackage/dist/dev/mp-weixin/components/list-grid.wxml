@@ -1,0 +1,1 @@
+<block wx:if="{{show}}"><view class="list-grid"><block wx:if="{{!hideDate}}"><view class="title-wrap"><text>{{dateText}}</text></view></block><view><slot></slot></view></view></block>

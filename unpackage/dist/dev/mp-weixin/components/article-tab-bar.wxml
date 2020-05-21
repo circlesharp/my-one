@@ -1,0 +1,1 @@
+<view class="article-tab-bar"><view class="comment-button">写一个评论..</view><view class="function-wrap"><panel-function vue-id="353b8ae6-1" category="{{5}}" bind:__l="__l"></panel-function></view></view>

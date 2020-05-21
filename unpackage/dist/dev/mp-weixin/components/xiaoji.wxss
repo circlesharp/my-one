@@ -1,0 +1,115 @@
+.xiao-ji-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background-color: #fff;
+}
+.xiao-ji-wrapper .xiao-ji-main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  overflow: hidden;
+  margin: 5px 0;
+  width: 680rpx;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.05);
+          box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+.xiao-ji-wrapper .xiao-ji-main image {
+  display: block;
+  width: 100%;
+  height: 454rpx;
+}
+.xiao-ji-wrapper .xiao-ji-main .text {
+  margin-bottom: 50px;
+  width: 85%;
+  line-height: 28px;
+  color: #5a5a5a;
+  font-size: 16px;
+}
+.xiao-ji-wrapper .xiao-ji-main .author {
+  margin: 14px 0 30px 0;
+  color: #bebebe;
+  font-size: 14px;
+}
+.xiao-ji-wrapper .xiao-ji-function {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-top: 30rpx;
+  margin-bottom: 40rpx;
+  padding: 0 16rpx 0 24rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 680rpx;
+  height: 50rpx;
+}
+.xiao-ji-wrapper .xiao-ji-function .function-icon {
+  display: inline-block;
+  width: 50rpx;
+  height: 50rpx;
+}
+.xiao-ji-wrapper .xiao-ji-function .function-text {
+  margin-left: 10rpx;
+  font-size: 14px;
+  line-height: 50rpx;
+  color: #bebebe;
+}
+.xiao-ji-wrapper .xiao-ji-function .function-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.xiao-ji-wrapper .xiao-ji-function .function-right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 440rpx;
+          flex: 0 0 440rpx;
+}
+

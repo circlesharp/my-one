@@ -1,0 +1,1 @@
+<view class="article-header"><image class="bg-pic" src="{{coverPic}}" mode="aspectFill"></image><view data-event-opts="{{[['tap',[['play',['$event']]]]]}}" class="album-wrap" bindtap="__e"><view class="{{['disc',(isPlaying)?'active':'']}}"></view><image src="{{albumPic}}" mode></image></view><view class="desc-wrap">{{''+singer+" | "+albumName+''}}</view></view>

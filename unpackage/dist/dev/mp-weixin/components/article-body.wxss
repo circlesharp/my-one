@@ -1,0 +1,25 @@
+.article-body {
+  margin: 70rpx 0;
+}
+.article-body text {
+  display: block;
+}
+.article-body .title {
+  margin-bottom: 85rpx;
+  max-height: 70px;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 1px;
+}
+.article-body .author {
+  margin-bottom: 85rpx;
+  font-size: 14px;
+  color: #666;
+}
+.article-body .article {
+  font-size: 19px;
+  line-height: 35px;
+  color: #333;
+}
+

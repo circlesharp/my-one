@@ -1,0 +1,33 @@
+.article-detail {
+  background-color: #fff;
+}
+.article-detail .list-title {
+  display: inline-block;
+  padding-bottom: 20rpx;
+  margin-bottom: 20rpx;
+  font-size: 16px;
+  color: #333;
+  border-bottom: 5px solid #000;
+}
+.article-detail .header-wrap {
+  padding: 0;
+}
+.article-detail .comment-wrap .comment-item+.comment-item {
+  border-top: 1px solid #eee;
+}
+.footer-wrap {
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  padding: 0;
+}
+.footer-wrap + .article-detail::after {
+  display: block;
+  height: 100rpx;
+  content: ' ';
+}
+.article-detail > view + view {
+  padding: 0 40rpx;
+  margin-top: 10px;
+}
+

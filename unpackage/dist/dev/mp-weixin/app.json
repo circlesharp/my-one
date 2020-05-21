@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/discover/discover",
+    "pages/series/series",
+    "pages/me/me",
+    "pages/article-detail/article-detail",
+    "pages/search/search"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "my-one",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "rgb(252, 252, 252)"
+  },
+  "tabBar": {
+    "color": "rgb(180, 180, 180)",
+    "selectedColor": "rgb(51, 51, 51)",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "首页",
+        "iconPath": "./static/tabBar/main.png",
+        "selectedIconPath": "static/tabBar/main_a.png"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "text": "发现",
+        "iconPath": "static/tabBar/discover.png",
+        "selectedIconPath": "static/tabBar/discover_a.png"
+      },
+      {
+        "pagePath": "pages/series/series",
+        "text": "连载",
+        "iconPath": "static/tabBar/series.png",
+        "selectedIconPath": "static/tabBar/series_a.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "static/tabBar/me.png",
+        "selectedIconPath": "static/tabBar/me_a.png"
+      }
+    ]
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "usingComponents": {},
+  "sitemapLocation": "sitemap65.json"
+}

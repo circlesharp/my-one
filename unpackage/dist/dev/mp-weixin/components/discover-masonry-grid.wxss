@@ -1,0 +1,12 @@
+.list-view.masonry {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.list-view.masonry .masonry-item {
+  margin-bottom: 30rpx;
+}
+

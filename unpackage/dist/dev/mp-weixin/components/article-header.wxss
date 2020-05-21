@@ -1,0 +1,66 @@
+.article-header {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  overflow: hidden;
+  width: 750rpx;
+  height: 480rpx;
+}
+.article-header .album-wrap {
+  margin-top: 145rpx;
+  z-index: 1;
+  width: 240rpx;
+  height: 240rpx;
+}
+.article-header .album-wrap .disc {
+  position: absolute;
+  width: 240rpx;
+  height: 240rpx;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#999));
+  background-image: -webkit-linear-gradient(#000, #999);
+  background-image: linear-gradient(#000, #999);
+  border-radius: 50%;
+  -webkit-transform: translateX(0rpx);
+          transform: translateX(0rpx);
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  transition: -webkit-transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+}
+.article-header .album-wrap .disc.active {
+  -webkit-transform: translateX(50rpx);
+          transform: translateX(50rpx);
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+.article-header .album-wrap image {
+  position: absolute;
+  z-index: 10;
+  width: 240rpx;
+  height: 240rpx;
+}
+.article-header .desc-wrap {
+  margin-top: 25rpx;
+  z-index: 1;
+  font-size: 14px;
+  color: #eee;
+}
+.article-header .bg-pic {
+  position: absolute;
+  z-index: 0;
+  width: 750rpx;
+  height: 480rpx;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+

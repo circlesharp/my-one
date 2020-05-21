@@ -1,0 +1,71 @@
+.list2-wrap.data-v-7bcf9c61 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 280rpx;
+  height: 264rpx;
+  border: 4rpx solid #fff;
+  border-radius: 4rpx;
+  overflow: hidden;
+  background-color: #ddd;
+}
+.list2-wrap .pic-wrap.data-v-7bcf9c61 {
+  position: relative;
+  width: 272rpx;
+  height: 208rpx;
+}
+.list2-wrap .pic-wrap .bg-pic.data-v-7bcf9c61 {
+  width: 272rpx;
+  height: 208rpx;
+}
+.list2-wrap .pic-wrap .edit-wrap.data-v-7bcf9c61 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: absolute;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 30rpx;
+  width: 224rpx;
+  height: 58rpx;
+  background-color: #979797;
+  border-radius: 2px;
+}
+.list2-wrap .pic-wrap .edit-wrap .icon.data-v-7bcf9c61 {
+  width: 40rpx;
+  height: 40rpx;
+}
+.list2-wrap .pic-wrap .edit-wrap text.data-v-7bcf9c61 {
+  height: 40rpx;
+  color: #fff;
+}
+.list2-wrap .text-wrap.data-v-7bcf9c61 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 50rpx;
+  width: 100%;
+  padding: 0 18rpx;
+  color: #666;
+  font-size: 10px;
+  line-height: 50rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+

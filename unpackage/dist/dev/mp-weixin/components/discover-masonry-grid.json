@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "list04": "/components/list-components/list-04"
+  },
+  "component": true
+}

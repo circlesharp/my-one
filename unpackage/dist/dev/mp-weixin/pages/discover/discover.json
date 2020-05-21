@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "scroll-nav-bar": "/components/scroll-nav-bar",
+    "date-picker": "/components/date-picker",
+    "list-grid": "/components/list-grid",
+    "list01": "/components/list-components/list-01",
+    "list04": "/components/list-components/list-04",
+    "list05": "/components/list-components/list-05",
+    "discover-grid": "/components/discover-grid",
+    "discover-masonry-grid": "/components/discover-masonry-grid"
+  }
+}

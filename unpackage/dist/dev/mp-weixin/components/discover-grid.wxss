@@ -1,0 +1,13 @@
+.discover-grid {
+  position: relative;
+}
+.discover-grid .date-picker-wrap {
+  position: fixed;
+  top: 88rpx;
+  z-index: 10;
+  width: 680rpx;
+}
+.discover-grid .false {
+  height: 74rpx;
+}
+

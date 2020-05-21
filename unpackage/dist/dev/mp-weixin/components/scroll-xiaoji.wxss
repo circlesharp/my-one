@@ -1,0 +1,21 @@
+.scroll-x {
+  height: 264rpx;
+  width: 750rpx;
+}
+.scroll-x .list-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.scroll-x .list-wrap .list-item {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 280rpx;
+          flex: 0 0 280rpx;
+  margin-left: 40rpx;
+  width: 280rpx;
+  height: 264rpx;
+}
+.scroll-x .list-wrap .list-item:last-child {
+  padding-right: 40rpx;
+}
+

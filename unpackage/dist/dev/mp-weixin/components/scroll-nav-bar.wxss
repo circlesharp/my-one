@@ -1,0 +1,79 @@
+.scroll-nav-bar-wrap.data-v-38fb4dc2 {
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 80rpx 0 0;
+  width: 750rpx;
+  height: 88rpx;
+  background-color: #fff;
+  z-index: 10;
+}
+.scroll-nav-bar-wrap .scroll-wrap.data-v-38fb4dc2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  white-space: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 670rpx;
+  height: 88rpx;
+}
+.scroll-nav-bar-wrap .scroll-wrap .scroll-item.data-v-38fb4dc2 {
+  margin-right: 40rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  display: inline-block;
+}
+.scroll-nav-bar-wrap .scroll-wrap .scroll-item.data-v-38fb4dc2:first-child {
+  margin-left: 35rpx;
+}
+.scroll-nav-bar-wrap .scroll-wrap .scroll-item .text.data-v-38fb4dc2 {
+  color: #bebebe;
+  font-size: 14px;
+}
+.scroll-nav-bar-wrap .scroll-wrap .scroll-item .active.data-v-38fb4dc2 {
+  color: #333;
+  font-weight: 700;
+  font-size: 20px;
+}
+.scroll-nav-bar-wrap .scroll-wrap .scroll-item.series.data-v-38fb4dc2 {
+  font-size: 14px;
+  margin: 0 20rpx;
+}
+.scroll-nav-bar-wrap .scroll-wrap .scroll-item.series.data-v-38fb4dc2:first-child {
+  margin-left: 35rpx;
+}
+.scroll-nav-bar-wrap .scroll-wrap .scroll-item.series .text.data-v-38fb4dc2 {
+  padding: 12rpx 20rpx;
+  height: 57rpx;
+  background-color: #f5f5f5;
+  border-radius: 40rpx;
+}
+.scroll-nav-bar-wrap .scroll-wrap .scroll-item.series .active.data-v-38fb4dc2 {
+  font-size: 14px;
+  font-weight: normal;
+  color: #fff;
+  background-color: #363636;
+}
+.scroll-nav-bar-wrap .search.data-v-38fb4dc2 {
+  position: absolute;
+  top: 0;
+  right: 38rpx;
+  width: 50rpx;
+  height: 88rpx;
+  background-color: #fff;
+}
+.scroll-nav-bar-wrap .search image.data-v-38fb4dc2 {
+  position: absolute;
+  top: 19rpx;
+  right: 0rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+

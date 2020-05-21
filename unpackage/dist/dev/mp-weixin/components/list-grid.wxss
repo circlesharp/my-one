@@ -1,0 +1,20 @@
+.list-grid {
+  margin: 10px 0;
+}
+.list-grid .title-wrap {
+  position: relative;
+  margin-bottom: 15px;
+  border-bottom: 1rpx solid #ececec;
+}
+.list-grid .title-wrap text {
+  position: absolute;
+  padding: 0 5px;
+  bottom: -8px;
+  color: #aaa;
+  font-size: 13px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #fff;
+}
+

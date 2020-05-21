@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "panel-function": "/components/panel-function",
+    "list05": "/components/list-components/list-05"
+  }
+}

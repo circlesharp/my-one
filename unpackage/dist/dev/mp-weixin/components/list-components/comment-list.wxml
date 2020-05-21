@@ -1,0 +1,1 @@
+<view class="comment-list"><view class="detail-wrap"><image src="{{avatar}}" mode></image><text class="author">{{author}}</text><text class="date">{{date}}</text></view><view class="content-wrap"><text>{{content}}</text></view><view class="function-wrap"><view><list-funtion vue-id="4bca0ff5-1" category="{{1}}" bind:__l="__l"></list-funtion></view></view></view>

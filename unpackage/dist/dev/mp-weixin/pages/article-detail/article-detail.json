@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "article-header": "/components/article-header",
+    "article-body": "/components/article-body",
+    "article-tab-bar": "/components/article-tab-bar",
+    "list01": "/components/list-components/list-01",
+    "coment-list": "/components/list-components/comment-list"
+  }
+}

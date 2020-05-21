@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "xiao-ji": "/components/xiaoji",
+    "panel": "/components/panel"
+  }
+}

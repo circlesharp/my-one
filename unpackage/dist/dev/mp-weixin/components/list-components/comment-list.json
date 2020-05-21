@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "list-funtion": "/components/panel-function"
+  }
+}

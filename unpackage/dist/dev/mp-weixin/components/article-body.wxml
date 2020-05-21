@@ -1,0 +1,1 @@
+<view class="article-body"><text class="title">{{title}}</text><text class="author">{{"文 / "+author}}</text><text class="article">{{article}}</text></view>
