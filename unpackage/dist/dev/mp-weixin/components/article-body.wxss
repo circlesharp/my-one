@@ -1,10 +1,10 @@
-.article-body {
+.article-body.data-v-23b38b4f {
   margin: 70rpx 0;
 }
-.article-body text {
+.article-body text.data-v-23b38b4f {
   display: block;
 }
-.article-body .title {
+.article-body .title.data-v-23b38b4f {
   margin-bottom: 85rpx;
   max-height: 70px;
   font-size: 23px;
@@ -12,12 +12,12 @@
   line-height: 35px;
   letter-spacing: 1px;
 }
-.article-body .author {
+.article-body .author.data-v-23b38b4f {
   margin-bottom: 85rpx;
   font-size: 14px;
   color: #666;
 }
-.article-body .article {
+.article-body .article.data-v-23b38b4f {
   font-size: 19px;
   line-height: 35px;
   color: #333;

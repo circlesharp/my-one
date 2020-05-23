@@ -1,1 +1,1 @@
-<view class="date-picker"><picker mode="date" value="4" start="2019-05" end="2020-05" fields="month" data-event-opts="{{[['change',[['dateChange',['$event']]]]]}}" bindchange="__e"><view class="picker-content">{{dateText+" ↓"}}</view></picker></view>
+<view class="date-picker data-v-2dd0d6c7"><picker mode="date" value="4" start="2019-05" end="2020-05" fields="month" data-event-opts="{{[['change',[['dateChange',['$event']]]]]}}" bindchange="__e" class="data-v-2dd0d6c7"><view class="picker-content data-v-2dd0d6c7">{{dateText+" ↓"}}</view></picker></view>

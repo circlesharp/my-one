@@ -138,7 +138,7 @@
 	}
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 	.contain
 		background-color #FFFFFF
 		.tab-view

@@ -1,6 +1,6 @@
 <template>
 	<view class="xiao-ji-wrapper">
-		<view class="xiao-ji-main">
+		<view class="xiao-ji-main" @tap="handleXiaojiTap">
 			<image :src="info.url" mode=""></image>
 			<text class="author">摄影 | {{info.photographer}}</text>
 			<text class="text">{{info.text}}</text>
@@ -71,11 +71,16 @@
 				})
 				console.log('api - share')
 			},
+			handleXiaojiTap () {
+				uni.navigateTo({
+					url: '/pages/xiaoji/xiaoji?id=' + '11'
+				})
+			}
 		}
 	}
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 	.xiao-ji-wrapper
 		display flex
 		flex-direction column

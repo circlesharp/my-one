@@ -1,24 +1,24 @@
-.discover {
+.discover.data-v-5d7239a1 {
   background-color: #fff;
 }
-.discover .tab-view {
+.discover .tab-view.data-v-5d7239a1 {
   position: fixed;
   z-index: 10;
 }
-.discover .tab-content .item-1 {
+.discover .tab-content .item-1.data-v-5d7239a1 {
   position: absolute;
   width: 100%;
 }
-.discover .tab-content .item-1 .scroll-y {
+.discover .tab-content .item-1 .scroll-y.data-v-5d7239a1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-top: 44px;
   height: 100%;
 }
-.discover .tab-content .item-1 .scroll-y .list-view {
+.discover .tab-content .item-1 .scroll-y .list-view.data-v-5d7239a1 {
   padding: 0 35rpx;
 }
-.discover .tab-content .item-1 .scroll-y .list-view .zhuanti-item+.zhuanti-item {
+.discover .tab-content .item-1 .scroll-y .list-view .zhuanti-item+.zhuanti-item.data-v-5d7239a1 {
   margin-top: 100rpx;
 }
 

@@ -27,7 +27,8 @@
   background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#999));
   background-image: -webkit-linear-gradient(#000, #999);
   background-image: linear-gradient(#000, #999);
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
   -webkit-transform: translateX(0rpx);
           transform: translateX(0rpx);
   -webkit-transition: -webkit-transform 0.5s ease-out;

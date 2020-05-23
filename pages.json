@@ -5,8 +5,6 @@
 		},{
 			"path": "pages/discover/discover"
 		},{
-			"path": "pages/series/series"
-		},{
 			"path": "pages/me/me",
 			"style": {
 				"transparentTitle": "auto"
@@ -19,6 +17,10 @@
 				"transparentTitle": "always"
 			}
 		}
+        ,{
+            "path" : "pages/xiaoji/xiaoji",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
@@ -41,11 +43,6 @@
 				"text": "发现",
 				"iconPath": "static/tabBar/discover.png",
 				"selectedIconPath": "static/tabBar/discover_a.png"
-			},{
-				"pagePath": "pages/series/series",
-				"text": "连载",
-				"iconPath": "static/tabBar/series.png",
-				"selectedIconPath": "static/tabBar/series_a.png"
 			},{
 				"pagePath": "pages/me/me",
 				"text": "我的",

@@ -13,10 +13,10 @@
 	<!-- half -->
 	<view class="list-wrap half" v-else-if="size==='half'">
 		<view class="img-wrap">
-			<image :src="info.img" mode="aspectFill"></image>
+			<image :src="img" mode="aspectFill"></image>
 		</view>
 		<view class="desc-wrap">
-			<text class="title">{{info.data2}}</text>
+			<text class="title">{{title}}</text>
 		</view>
 	</view>
 	
@@ -49,7 +49,7 @@
 	export default {
 		props: {
 			size: { type: String, default: 'full' },
-			img: { type: String, default: 'img' },
+			img: { type: String, default: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1589110811914&di=e4593d5ea8d86512fffd126976c899c5&imgtype=0&src=http%3A%2F%2Fwww.23book.com%2Fupload%2F2017%2F07%2F17%2Fea036ba61fd460db.jpg' },
 			title: { type: String, default: '标题' },
 			author: { type: String, default: '作者' },
 			date: { type: String, default: '日期' },
@@ -68,7 +68,7 @@
 	}
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 	.list-wrap
 		border-radius 10px
 		overflow hidden
@@ -123,6 +123,8 @@
 	.list-wrap.masonry
 		position relative
 		width 330upx
+		border-radius 10px
+		overflow hidden
 		box-shadow 0 0 10px rgba(0, 0, 0, 0.15)
 		/* #ifdef MP-WEIXIN */
 		.img-wrap

@@ -29,7 +29,7 @@
 	}
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 	.list-grid
 		margin 10px 0
 		.title-wrap

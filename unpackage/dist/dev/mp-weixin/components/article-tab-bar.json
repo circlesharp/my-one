@@ -1,6 +1,7 @@
 {
   "component": true,
   "usingComponents": {
-    "panel-function": "/components/panel-function"
+    "panel-function": "/components/panel-function",
+    "review": "/components/review"
   }
 }

@@ -1,9 +1,9 @@
-.date-picker {
+.date-picker.data-v-2dd0d6c7 {
   background-color: #fff;
   width: 100%;
   height: 74rpx;
 }
-.date-picker .picker-content {
+.date-picker .picker-content.data-v-2dd0d6c7 {
   text-align: center;
   line-height: 74rpx;
   font-size: 15px;

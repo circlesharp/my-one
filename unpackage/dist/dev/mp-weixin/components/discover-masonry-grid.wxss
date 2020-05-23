@@ -1,4 +1,4 @@
-.list-view.masonry {
+.list-view.masonry.data-v-735fb76c {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -6,7 +6,7 @@
   -webkit-justify-content: space-between;
           justify-content: space-between;
 }
-.list-view.masonry .masonry-item {
+.list-view.masonry .masonry-item.data-v-735fb76c {
   margin-bottom: 30rpx;
 }
 

@@ -17,7 +17,7 @@
 	}
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 	.article-body
 		margin 70upx 0
 		text

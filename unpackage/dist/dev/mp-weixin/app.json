@@ -2,10 +2,10 @@
   "pages": [
     "pages/main/main",
     "pages/discover/discover",
-    "pages/series/series",
     "pages/me/me",
     "pages/article-detail/article-detail",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/xiaoji/xiaoji"
   ],
   "subPackages": [],
   "window": {
@@ -32,12 +32,6 @@
         "selectedIconPath": "static/tabBar/discover_a.png"
       },
       {
-        "pagePath": "pages/series/series",
-        "text": "连载",
-        "iconPath": "static/tabBar/series.png",
-        "selectedIconPath": "static/tabBar/series_a.png"
-      },
-      {
         "pagePath": "pages/me/me",
         "text": "我的",
         "iconPath": "static/tabBar/me.png",
@@ -49,5 +43,5 @@
     "audio"
   ],
   "usingComponents": {},
-  "sitemapLocation": "sitemap65.json"
+  "sitemapLocation": "sitemap94.json"
 }

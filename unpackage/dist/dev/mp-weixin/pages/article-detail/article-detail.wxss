@@ -1,7 +1,8 @@
-.article-detail {
+.article-detail.data-v-71fc077e {
+  position: relative;
   background-color: #fff;
 }
-.article-detail .list-title {
+.article-detail .list-title.data-v-71fc077e {
   display: inline-block;
   padding-bottom: 20rpx;
   margin-bottom: 20rpx;
@@ -9,24 +10,24 @@
   color: #333;
   border-bottom: 5px solid #000;
 }
-.article-detail .header-wrap {
+.article-detail .header-wrap.data-v-71fc077e {
   padding: 0;
 }
-.article-detail .comment-wrap .comment-item+.comment-item {
+.article-detail .comment-wrap .comment-item+.comment-item.data-v-71fc077e {
   border-top: 1px solid #eee;
 }
-.footer-wrap {
+.footer-wrap.data-v-71fc077e {
   position: fixed;
   z-index: 10;
   bottom: 0;
   padding: 0;
 }
-.footer-wrap + .article-detail::after {
+.footer-wrap + .article-detail.data-v-71fc077e::after {
   display: block;
   height: 100rpx;
   content: ' ';
 }
-.article-detail > view + view {
+.article-detail > view + view.data-v-71fc077e {
   padding: 0 40rpx;
   margin-top: 10px;
 }

@@ -1,13 +1,13 @@
-.scroll-x {
+.scroll-x.data-v-4fb0c998 {
   height: 264rpx;
   width: 750rpx;
 }
-.scroll-x .list-wrap {
+.scroll-x .list-wrap.data-v-4fb0c998 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
 }
-.scroll-x .list-wrap .list-item {
+.scroll-x .list-wrap .list-item.data-v-4fb0c998 {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 280rpx;
           flex: 0 0 280rpx;
@@ -15,7 +15,7 @@
   width: 280rpx;
   height: 264rpx;
 }
-.scroll-x .list-wrap .list-item:last-child {
+.scroll-x .list-wrap .list-item.data-v-4fb0c998:last-child {
   padding-right: 40rpx;
 }
 

@@ -52,11 +52,10 @@
 
 <script>
 	import List04 from './list-components/list-04.vue'
-	
+
 	let leftHeight = 0
 	let rightHeight = 0
-	let heights = []
-
+	
 	export default {
 		components: { List04 },
 		props: {
@@ -78,27 +77,45 @@
 		methods: {
 			makeMasonry () {
 				this.xiaoJiInfo.forEach((item, index) => {
-					let rate = this._getPicRate(item.img)
-					// console.log(leftHeight, rightHeight)
-					if (leftHeight <= rightHeight) {
-						this.leftList.push(item)
-						leftHeight += rate
-					} else {
-						this.rightList.push(item)
-						rightHeight += rate
+					this.getImageRate(item)
+				})
+			},
+			getImageRate (item) {
+				let self = this
+				uni.getImageInfo({
+					src: item.img,
+					success: (image) => {
+						let rate = image.height / image.width
+						if (leftHeight <= rightHeight) {
+							this.leftList.push(item)
+							leftHeight += rate
+						} else {
+							this.rightList.push(item)
+							rightHeight += rate
+						}
+					},
+					fail: function (e) {
+						console.log(e)
 					}
 				})
 			},
-			_getPicRate (url) {
-				let pic = new Image()
-				pic.src = url
-				return pic.height / pic.width
-			}
+			// _getPicRate: async function (url) {
+			// 	let pic = await this._createPic(url)
+			// 	let rate = pic.height / pic.width
+			// 	return rate
+			// },
+			// _createPic (url) {
+			// 	return new Promise ((resolve, reject) => {
+			// 		let pic = new Image()
+			// 		pic.src = url
+			// 		if (pic.complete) { resolve(pic) }
+			// 	})
+			// }
 		}
 	}
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 	.list-view.masonry
 		display flex
 		justify-content space-between

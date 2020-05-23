@@ -23,7 +23,7 @@
 			<swiper-item class="item-1">
 				<scroll-view class='scroll-y' scroll-y="true" >
 					<view class="list-view">
-						<DiscoverGrid :info="tuWenInfo"></DiscoverGrid>
+						<DiscoverGrid :info="tuWenInfo" listType='List04'></DiscoverGrid>
 					</view>
 				</scroll-view>
 			</swiper-item>
@@ -32,7 +32,7 @@
 			<swiper-item class="item-1">
 				<scroll-view class='scroll-y' scroll-y="true" >
 					<view class="list-view">
-						<DiscoverGrid :info="tuWenInfo"></DiscoverGrid>
+						<DiscoverGrid :info="tuWenInfo" listType='List01'></DiscoverGrid>
 					</view>
 				</scroll-view>
 			</swiper-item>
@@ -54,10 +54,10 @@
 			</swiper-item>
 			
 			<!-- 音乐 -->
-			<swiper-item class="item-1"></swiper-item>
+			<!-- <swiper-item class="item-1"></swiper-item> -->
 			
 			<!-- 影视 -->
-			<swiper-item class="item-1"></swiper-item>
+			<!-- <swiper-item class="item-1"></swiper-item> -->
 			
 			<!-- 小记 -->
 			<swiper-item class="item-1">
@@ -102,9 +102,7 @@
 	import { mock_usersXiaoJi } from '../../static/mock/mock_usersXiaoJi.js'
 	import { mock_discoverList } from '../../static/mock/mock_discoverList.js'	
 	import { mock_discoverAuthor } from '../../static/mock/mock_discoverAuthor.js'
-	
-	let panelCategories = [ '阅读', '图文', '专题', '热榜', '问答', '音乐', '影视', '电台', '小记', '作者', '连载', '活动']
-	
+		
 	// 天才用闭包
 	let getDiscoverList = (function () {
 		let index = 0
@@ -200,7 +198,7 @@
 	}
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 	.discover
 		background-color #FFFFFF
 		.tab-view

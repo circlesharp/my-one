@@ -43,7 +43,7 @@
 	}
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 	.date-picker
 		background-color #FFFFFF
 		width 100%

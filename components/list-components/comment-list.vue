@@ -1,5 +1,6 @@
 <template>
 	<view class="comment-list">
+		
 		<view class="detail-wrap">
 			<image :src="avatar" mode=""></image>
 			<text class="author">{{author}}</text>
@@ -51,7 +52,7 @@
 	}
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 	.comment-list
 		padding 30upx 0
 		.detail-wrap

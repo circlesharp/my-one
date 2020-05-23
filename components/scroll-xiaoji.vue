@@ -4,10 +4,10 @@
 			scroll-x
 		>
 			<view class="list-wrap">
-				<view class="list-item">
+				<view class="list-item" @tap="editXiaoji">
 					<List02 showEdit></List02>
 				</view>
-				<view class="list-item" v-for="(item, index) in info" :key="index">
+				<view class="list-item" v-for="(item, index) in info" :key="index"  @tap="showXiaoji">
 					<List02 :pic="item.url" :text="item.text"></List02>
 				</view>
 			</view>
@@ -34,12 +34,22 @@
 			getInfo () {
 				this.info = mock_xiaoJi
 				this.info.splice(0, 2)
+			},
+			editXiaoji () {
+				uni.navigateTo({
+					url: '/pages/xiaoji/xiaoji?id=12&edit=1'
+				})
+			},
+			showXiaoji () {
+				uni.navigateTo({
+					url: '/pages/xiaoji/xiaoji?id='+'13'
+				})
 			}
 		}
 	}
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 	.scroll-x
 		height 264upx
 		width 750upx

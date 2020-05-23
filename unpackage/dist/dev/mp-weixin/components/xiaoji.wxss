@@ -1,4 +1,4 @@
-.xiao-ji-wrapper {
+.xiao-ji-wrapper.data-v-0e8968d8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -14,7 +14,7 @@
           align-items: center;
   background-color: #fff;
 }
-.xiao-ji-wrapper .xiao-ji-main {
+.xiao-ji-wrapper .xiao-ji-main.data-v-0e8968d8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -31,28 +31,29 @@
   overflow: hidden;
   margin: 5px 0;
   width: 680rpx;
-  border-radius: 10px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.05);
           box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
-.xiao-ji-wrapper .xiao-ji-main image {
+.xiao-ji-wrapper .xiao-ji-main image.data-v-0e8968d8 {
   display: block;
   width: 100%;
   height: 454rpx;
 }
-.xiao-ji-wrapper .xiao-ji-main .text {
+.xiao-ji-wrapper .xiao-ji-main .text.data-v-0e8968d8 {
   margin-bottom: 50px;
   width: 85%;
   line-height: 28px;
   color: #5a5a5a;
   font-size: 16px;
 }
-.xiao-ji-wrapper .xiao-ji-main .author {
+.xiao-ji-wrapper .xiao-ji-main .author.data-v-0e8968d8 {
   margin: 14px 0 30px 0;
   color: #bebebe;
   font-size: 14px;
 }
-.xiao-ji-wrapper .xiao-ji-function {
+.xiao-ji-wrapper .xiao-ji-function.data-v-0e8968d8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -71,18 +72,18 @@
   width: 680rpx;
   height: 50rpx;
 }
-.xiao-ji-wrapper .xiao-ji-function .function-icon {
+.xiao-ji-wrapper .xiao-ji-function .function-icon.data-v-0e8968d8 {
   display: inline-block;
   width: 50rpx;
   height: 50rpx;
 }
-.xiao-ji-wrapper .xiao-ji-function .function-text {
+.xiao-ji-wrapper .xiao-ji-function .function-text.data-v-0e8968d8 {
   margin-left: 10rpx;
   font-size: 14px;
   line-height: 50rpx;
   color: #bebebe;
 }
-.xiao-ji-wrapper .xiao-ji-function .function-left {
+.xiao-ji-wrapper .xiao-ji-function .function-left.data-v-0e8968d8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -97,7 +98,7 @@
   -webkit-flex: 1;
           flex: 1;
 }
-.xiao-ji-wrapper .xiao-ji-function .function-right {
+.xiao-ji-wrapper .xiao-ji-function .function-right.data-v-0e8968d8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;

@@ -1,8 +1,8 @@
 {
+  "component": true,
   "usingComponents": {
     "list-grid": "/components/list-grid",
     "date-picker": "/components/date-picker",
     "list01": "/components/list-components/list-01"
-  },
-  "component": true
+  }
 }

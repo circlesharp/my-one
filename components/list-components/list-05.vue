@@ -48,7 +48,7 @@
 	}
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 	.poster-wrap
 		position relative
 		margin-bottom 20px

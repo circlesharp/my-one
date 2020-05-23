@@ -1,12 +1,12 @@
-.list-grid {
+.list-grid.data-v-0d00becf {
   margin: 10px 0;
 }
-.list-grid .title-wrap {
+.list-grid .title-wrap.data-v-0d00becf {
   position: relative;
   margin-bottom: 15px;
   border-bottom: 1rpx solid #ececec;
 }
-.list-grid .title-wrap text {
+.list-grid .title-wrap text.data-v-0d00becf {
   position: absolute;
   padding: 0 5px;
   bottom: -8px;

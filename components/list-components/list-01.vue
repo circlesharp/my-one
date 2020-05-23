@@ -68,7 +68,7 @@
 	}
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 	.list-wrap
 		display flex
 		align-items center

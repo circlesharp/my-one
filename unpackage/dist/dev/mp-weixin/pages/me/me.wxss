@@ -30,7 +30,8 @@
   width: 120rpx;
   height: 120rpx;
   border: 2px solid #fff;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
 }
 .me .me-cardinal text.data-v-5dc3ba7e {
   margin-top: 25rpx;

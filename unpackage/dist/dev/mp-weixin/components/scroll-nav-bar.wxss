@@ -53,7 +53,8 @@
   padding: 12rpx 20rpx;
   height: 57rpx;
   background-color: #f5f5f5;
-  border-radius: 40rpx;
+  -webkit-border-radius: 40rpx;
+          border-radius: 40rpx;
 }
 .scroll-nav-bar-wrap .scroll-wrap .scroll-item.series .active.data-v-38fb4dc2 {
   font-size: 14px;

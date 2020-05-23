@@ -1,4 +1,7 @@
-.article-tab-bar {
+.article-tab-bar .review.data-v-521b76be {
+  width: 750rpx;
+}
+.article-tab-bar .tab-bar.data-v-521b76be {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -11,7 +14,7 @@
   background-color: #fbfbfb;
   border-top: 1rpx solid #eee;
 }
-.article-tab-bar .comment-button {
+.article-tab-bar .tab-bar .comment-button.data-v-521b76be {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-left: 30rpx;
@@ -19,11 +22,12 @@
   height: 64rpx;
   line-height: 64rpx;
   border: 1rpx solid #999;
-  border-radius: 5px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
   font-size: 14px;
   color: #999;
 }
-.article-tab-bar .function-wrap {
+.article-tab-bar .tab-bar .function-wrap.data-v-521b76be {
   position: absolute;
   right: 55rpx;
 }

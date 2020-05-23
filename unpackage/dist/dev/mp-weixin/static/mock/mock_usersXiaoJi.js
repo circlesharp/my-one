@@ -8,7 +8,7 @@ let mock_usersXiaoJi = [
 		data2: '2020 / 04 / 27',
 		location: '乌鲁木齐'
 	},{
-		img: '/static/posters/2047.jpg',
+		img: 'http://a2.att.hudong.com/41/58/01300000218919121847580967832.jpg',
 		title: 'El Psy Congroo',
 		author: '王靖雯2',
 		desc: '穿淡黄碎花裙的你',

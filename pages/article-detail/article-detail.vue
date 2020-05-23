@@ -56,7 +56,7 @@
 				</view>
 			</view>
 		</view>
-
+		
 	</view>
 </template>
 
@@ -92,8 +92,9 @@
 	}
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 	.article-detail
+		position relative
 		background-color #FFFFFF
 		.list-title
 			display inline-block
@@ -107,6 +108,7 @@
 		.comment-wrap
 			.comment-item+.comment-item
 				border-top 1px solid #eee
+			
 	.footer-wrap
 		position fixed
 		z-index 10

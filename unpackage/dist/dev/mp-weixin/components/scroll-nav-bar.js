@@ -154,7 +154,8 @@ var _default =
   data: function data() {
     return {
       categorys: {
-        discover: ['阅读', '图文', '专题', '音乐', '影视', '小记', '作者'],
+        // discover: [ '阅读', '图文', '专题', '音乐', '影视', '小记', '作者' ],
+        discover: ['阅读', '图文', '专题', '小记', '作者', '音乐', '影视'],
         series: [2020, 2019, 2018, 2017, 2016] },
 
       winHeight: "",
@@ -197,7 +198,8 @@ var _default =
       uni.navigateTo({
         url: '/pages/search/search' });
 
-    } } };exports.default = _default;
+    },
+    handleScroll: function handleScroll() {} } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),

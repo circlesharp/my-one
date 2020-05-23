@@ -1,22 +1,23 @@
-.poster-wrap {
+.poster-wrap.data-v-7bf9e2e4 {
   position: relative;
   margin-bottom: 20px;
   width: 100%;
   height: 400rpx;
 }
-.poster-wrap .poster {
+.poster-wrap .poster.data-v-7bf9e2e4 {
   display: block;
   width: 100%;
   height: 400rpx;
-  border-radius: 10px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
 }
-.poster-wrap .title {
+.poster-wrap .title.data-v-7bf9e2e4 {
   position: absolute;
   bottom: 40rpx;
   left: 20rpx;
   color: #fff;
 }
-.panel-function-wrap {
+.panel-function-wrap.data-v-7bf9e2e4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -32,18 +33,18 @@
           box-sizing: border-box;
   height: 50rpx;
 }
-.panel-function-wrap .function-icon {
+.panel-function-wrap .function-icon.data-v-7bf9e2e4 {
   display: inline-block;
   width: 50rpx;
   height: 50rpx;
 }
-.panel-function-wrap .function-text {
+.panel-function-wrap .function-text.data-v-7bf9e2e4 {
   margin-left: 10rpx;
   font-size: 14px;
   line-height: 50rpx;
   color: #bebebe;
 }
-.panel-function-wrap .function-left {
+.panel-function-wrap .function-left.data-v-7bf9e2e4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -58,7 +59,7 @@
   -webkit-flex: 1;
           flex: 1;
 }
-.panel-function-wrap .function-right {
+.panel-function-wrap .function-right.data-v-7bf9e2e4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;

@@ -1,7 +1,7 @@
-.comment-list {
+.comment-list.data-v-7d049e2c {
   padding: 30rpx 0;
 }
-.comment-list .detail-wrap {
+.comment-list .detail-wrap.data-v-7d049e2c {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -10,32 +10,33 @@
           align-items: center;
   height: 40rpx;
 }
-.comment-list .detail-wrap image {
+.comment-list .detail-wrap image.data-v-7d049e2c {
   width: 40rpx;
   height: 40rpx;
-  border-radius: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
 }
-.comment-list .detail-wrap text {
+.comment-list .detail-wrap text.data-v-7d049e2c {
   font-size: 15px;
   color: #999;
 }
-.comment-list .detail-wrap .author {
+.comment-list .detail-wrap .author.data-v-7d049e2c {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
           flex: 1;
   padding-left: 25rpx;
 }
-.comment-list .content-wrap {
+.comment-list .content-wrap.data-v-7d049e2c {
   margin: 20rpx 0 20rpx 40rpx;
   line-height: 25px;
   font-size: 15px;
   color: #666;
 }
-.comment-list .function-wrap {
+.comment-list .function-wrap.data-v-7d049e2c {
   position: relative;
   height: 35rpx;
 }
-.comment-list .function-wrap > view {
+.comment-list .function-wrap > view.data-v-7d049e2c {
   position: absolute;
   right: 60rpx;
 }

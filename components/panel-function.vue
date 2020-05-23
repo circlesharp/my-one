@@ -97,7 +97,7 @@
 	}
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 	
 	.list-function
 		display flex
